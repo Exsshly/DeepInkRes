@@ -1,0 +1,305 @@
+{
+    "name": "ESJ",
+    "url": "www.esjzone.me",
+    "version": 118,
+    "search": {
+        "url": "https://www.esjzone.me/tags/${key}/",
+        "charset": "utf-8",
+        "list": "div.col-xl-9 > div.row>div",
+        "name": " div > div > h5 > a",
+        "author": "div>div.card-body > div.card-author > a",
+        "summary": "",
+        "cover": "div>div>a>div>div>div@attr->data-src",
+        "detail": "div> div > div > h5 > a@attr->href"
+    },
+    "detail": {
+        "name": "div.col-md-9.book-detail > h2",
+        "author": "div.col-md-9.book-detail > ul>li:nth-child(2)>a",
+        "cover": "div.col-md-3 > div > a > img@attr->src",
+        "summary": "div.description",
+        "status": "",
+        "update": "div.col-md-9.book-detail > ul > li:eq(5)",
+        "lastChapter": "div[id=chapterList]>:last-child",
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "div[id=chapterList]>*",
+        "name": "a",
+        "chapter": "a@attr->href"
+    },
+    "chapter": {
+        "content": "div.forum-content.mt-3,div[class =d_post_content j_d_post_content]"
+    },
+    "auth": {
+        "login": "https://www.esjzone.me/login.html",
+        "cookie": "esjzone.me",
+        "verify": "https://www.esjzone.me/my/profile.html",
+        "logged": "div.offcanvas-wrapper > section > div > div.col-lg-8 > form > div.col-12 > div > a@equal->儲存更新"
+    },
+    "rank": [
+        {
+            "title": "全部",
+            "page": 1,
+            "size": 20,
+            "url": "https://www.esjzone.me/${key}/${page}.html",
+            "categories": [
+                {
+                    "value": "最近更新",
+                    "key": "list-01"
+                },
+                {
+                    "value": "最新上架",
+                    "key": "list-02"
+                },
+                {
+                    "value": "最高评分",
+                    "key": "list-03"
+                },
+                {
+                    "value": "最多观看",
+                    "key": "list-04"
+                },
+                {
+                    "value": "最多文章",
+                    "key": "list-05"
+                },
+                {
+                    "value": "最多讨论",
+                    "key": "list-06"
+                },
+                {
+                    "value": "最多收藏",
+                    "key": "list-07"
+                },
+                {
+                    "value": "最多字数",
+                    "key": "list-08"
+                }
+            ]
+        },
+        {
+            "title": "日轻",
+            "page": 1,
+            "size": 20,
+            "url": "https://www.esjzone.me/${key}/${page}.html",
+            "categories": [
+                {
+                    "value": "最近更新",
+                    "key": "list-11"
+                },
+                {
+                    "value": "最新上架",
+                    "key": "list-12"
+                },
+                {
+                    "value": "最高评分",
+                    "key": "list-13"
+                },
+                {
+                    "value": "最多观看",
+                    "key": "list-14"
+                },
+                {
+                    "value": "最多文章",
+                    "key": "list-15"
+                },
+                {
+                    "value": "最多讨论",
+                    "key": "list-16"
+                },
+                {
+                    "value": "最多收藏",
+                    "key": "list-17"
+                },
+                {
+                    "value": "最多字数",
+                    "key": "list-18"
+                }
+            ]
+        },
+        {
+            "title": "原创",
+            "page": 1,
+            "size": 20,
+            "url": "https://www.esjzone.me/${key}/${page}.html",
+            "categories": [
+                {
+                    "value": "最近更新",
+                    "key": "list-21"
+                },
+                {
+                    "value": "最新上架",
+                    "key": "list-22"
+                },
+                {
+                    "value": "最高评分",
+                    "key": "list-23"
+                },
+                {
+                    "value": "最多观看",
+                    "key": "list-24"
+                },
+                {
+                    "value": "最多文章",
+                    "key": "list-25"
+                },
+                {
+                    "value": "最多讨论",
+                    "key": "list-26"
+                },
+                {
+                    "value": "最多收藏",
+                    "key": "list-27"
+                },
+                {
+                    "value": "最多字数",
+                    "key": "list-28"
+                }
+            ]
+        },
+        {
+            "title": "韩轻",
+            "page": 1,
+            "size": 20,
+            "url": "https://www.esjzone.me/${key}/${page}.html",
+            "categories": [
+                {
+                    "value": "最近更新",
+                    "key": "list-31"
+                },
+                {
+                    "value": "最新上架",
+                    "key": "list-32"
+                },
+                {
+                    "value": "最高评分",
+                    "key": "list-33"
+                },
+                {
+                    "value": "最多观看",
+                    "key": "list-34"
+                },
+                {
+                    "value": "最多文章",
+                    "key": "list-35"
+                },
+                {
+                    "value": "最多讨论",
+                    "key": "list-36"
+                },
+                {
+                    "value": "最多收藏",
+                    "key": "list-37"
+                },
+                {
+                    "value": "最多字数",
+                    "key": "list-38"
+                }
+            ]
+        },
+        {
+            "title": "分类",
+            "page": 1,
+            "size": 20,
+            "url": "https://www.esjzone.me/tags/${key}/${page}.html",
+            "categories": [
+                {
+                    "value": "r15",
+                    "key": "R15"
+                },
+                {
+                    "value": "残酷描写",
+                    "key": "残酷描写"
+                },
+                {
+                    "value": "异世界",
+                    "key": "异世界"
+                },
+                {
+                    "value": "勇者",
+                    "key": "勇者"
+                },
+                {
+                    "value": "龙",
+                    "key": "龙"
+                },
+                {
+                    "value": "技能",
+                    "key": "技能"
+                },
+                {
+                    "value": "冒险",
+                    "key": "冒险"
+                },
+                {
+                    "value": "转生",
+                    "key": "转生"
+                },
+                {
+                    "value": "黑暗",
+                    "key": "黑暗"
+                },
+                {
+                    "value": "萝莉",
+                    "key": "萝莉"
+                },
+                {
+                    "value": "后宫",
+                    "key": "后宫"
+                },
+                {
+                    "value": "魔法",
+                    "key": "魔法"
+                },
+                {
+                    "value": "少女",
+                    "key": "少女"
+                },
+                {
+                    "value": "魔王",
+                    "key": "魔王"
+                },
+                {
+                    "value": "战争",
+                    "key": "战争"
+                },
+                {
+                    "value": "死亡",
+                    "key": "死亡"
+                },
+                {
+                    "value": "穿越",
+                    "key": "穿越"
+                },
+                {
+                    "value": "奴隶",
+                    "key": "奴隶"
+                },
+                {
+                    "value": "主角",
+                    "key": "主角"
+                },
+                {
+                    "value": "r18",
+                    "key": "R18"
+                },
+                {
+                    "value": "恋爱",
+                    "key": "恋爱"
+                },
+                {
+                    "value": "恶意千金",
+                    "key": "惡役千金"
+                },
+                {
+                    "value": "TS",
+                    "key": "TS"
+                },
+                {
+                    "value": "百合",
+                    "key": "百合"
+                }
+            ]
+        }
+    ]
+}

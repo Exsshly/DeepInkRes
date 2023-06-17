@@ -1,0 +1,28 @@
+{
+    "name": "抖音小说网ᵗ",
+    "url": "www.douyinxs.com",
+    "version": 100,
+    "search": {
+        "url": "https://www.douyinxs.com/search/@post->searchkey=${key}&Submit=",
+        "charset": "utf-8",
+        "list": "ul > li",
+        "name": ".s2 > a",
+        "author": ".s4",
+        "cover": "",
+        "summary": "",
+        "detail": ".s2 > a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "dl > dd",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#content",
+        "purify": [""],
+        "page":".bottem1 > a:matches(下一页)"
+    }
+}

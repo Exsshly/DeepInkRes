@@ -1,0 +1,26 @@
+{
+    "name": "无忧书城ᵗ",
+    "url": "www.51shucheng.net",
+    "version": 100,
+    "search": {
+        "url": "https://www.51shucheng.net/search?q=${key}",
+        "charset": "utf-8",
+        "list": "ul > li",
+        "name": "a > h3@replace->小说全集在线阅读->",
+        "author": "a > h3@replace->小说全集在线阅读->",
+        "cover": "",
+        "summary": "",
+        "detail": "a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "ul > li",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "#neirong"
+    }
+}

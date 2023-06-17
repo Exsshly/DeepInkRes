@@ -1,0 +1,26 @@
+{
+  "name": "读杂志网ᵗ",
+  "url": "www.duzazhi.com",
+  "version": 101,
+  "search": {
+    "url": "http://www.duzazhi.com/book/modules/article/search.php?searchtype=all&searchkey=${key}&Submit22=",
+    "charset": "gbk",
+    "list": ".c_row",
+    "name": "span > a",
+    "author": ".c_value",
+    "cover": "a > img",
+    "detail": "a"
+  },
+  "detail": {
+    "catalog": ""
+  },
+  "catalog": {
+    "list": "dl > dd",
+    "name": "a",
+    "chapter": "a"
+  },
+  "chapter": {
+    "content": "#contents",
+    "purify": ["如果.+"]
+  }
+  }

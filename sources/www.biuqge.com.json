@@ -1,0 +1,27 @@
+{
+    "name": "笔趣阁ttt",
+    "url": "www.biuqge.com",
+    "version": 101,
+    "search": {
+        "url": "https://www.biuqge.com/modules/article/search.php?searchtype=all&searchkey=${key}&t_btnsearch=",
+        "charset": "utf-8",
+        "list": ".c_row",
+        "name": "span > a",
+        "author": ".c_value",
+        "cover": "div > a > img",
+        "summary": "",
+        "detail": "div > a"
+    },
+    "detail": {
+        "catalog": "li > a"
+    },
+    "catalog": {
+        "list": ".index > dd",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".acontent",
+        "purify": [""]
+    }
+}

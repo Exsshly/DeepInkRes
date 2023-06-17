@@ -1,0 +1,26 @@
+{
+  "name": "霹雳小说需魔法加持)ᵗ",
+  "url": "www.pilibook.com",
+  "version": 101,
+  "search": {
+    "url": "https://www.pilibook.com/s.php@post->s=${key}&type=articlename",
+    "charset": "gbk",
+    "list": ".sone",
+    "name": "a",
+    "author": ".author > a",
+    "cover": "",
+    "detail": "a"
+  },
+  "detail": {
+    "catalog": ".info_menu1 > h3 > a"
+  },
+  "catalog": {
+    "list": ".chapters > li",
+    "name": "a",
+    "chapter": "a",
+    "page": ".page > a:matches(下一页)"
+  },
+  "chapter": {
+    "content": "#novelcontent > p"
+  }
+  }
