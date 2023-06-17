@@ -1,0 +1,27 @@
+{
+    "name": "天涯书库",
+    "url": "tianyashuku.net",
+    "version": 100,
+    "search": {
+        "url": "http://tianyashuku.net/e/search/index.php@post->tbname=bookname&show=title%2Cwriter&tempid=1&keyboard=${key}",
+        "charset": "utf-8",
+        "list": ".themebetter-ent-loop-item",
+        "name": "h2 > a",
+        "author": "h2 > a",
+        "cover": "a > img",
+        "summary": "",
+        "detail": "h2 > a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": ".line3",
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": ".m-article-text",
+        "purify": [""]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "书本网ᵗ",
+    "url": "bookben.net",
+    "version": 100,
+    "search": {
+        "url": "https://www.bookben.net/search/?searchkey=${key}",
+        "charset": "utf-8",
+        "list": ".item",
+        "name": ".image > a@attr->title",
+        "author": ".btm > a",
+        "cover": "a > img",
+        "summary": "",
+        "detail": "dt > a"
+    },
+    "detail": {
+        "catalog": ""
+    },
+    "catalog": {
+        "list": "dl > a",
+        "name": "a > dd",
+        "chapter": "a",
+        "page":""
+    },
+    "chapter": {
+        "content": "#booktxt",
+        "purify": [""],
+        "page":".bottem1 > a:matches(下一页)"
+    }
+}
